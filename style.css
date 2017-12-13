@@ -14,8 +14,12 @@ header div {
   margin: 0 auto;
 }
 
-header h1 {
-  /*float:left;*/
+.table {
+  background-color: #a95634;
+}
+
+th {
+  text-align: left;
 }
 
 header img {

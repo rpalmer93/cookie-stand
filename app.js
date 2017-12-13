@@ -34,14 +34,11 @@ function Store(name, minCustPerHour, maxCustPerHour, avgCookiePerCust) {
     }
   };
   this.render = function() {
-      // create tr
       var trEl = document.createElement('tr');
-      // create td
       var tdEl = document.createElement('td');
-      // give td content (Name for an individual cat)
-      tdEl.textContent = this.name;
-      // append the td
-      trEl.appendChild(tdEl);
+      var thEl = document.createElement('th');
+      thEl.textContent = this.name;
+      trEl.appendChild(thEl);
 
       for (var i = 0; i < this.cookiesEachHour.length; i++) {
 
@@ -62,6 +59,19 @@ function Store(name, minCustPerHour, maxCustPerHour, avgCookiePerCust) {
   new Store('Capitol Hill', 20, 38, 2.3);
   new Store('Alki', 2, 16, 4.6);
 
+  function renderHeaderRow() {
+    var trEl = document.createElement('tr');
+    var tdEl = document.createElement('td');
+    var thEl = document.createElement('th');
+    tdEl.textContent = ' ';
+    trEl.appendChild(tdEl);
+    for (var i = 0; i < hours.length; i++) {
+      thEl = document.createElement('th');
+      thEl.textContent = hours[i];
+      trEl.appendChild(thEl);
+    };
+    storeTable.appendChild(trEl);
+  }
 
   function renderStoreRows(){
     for(var i = 0; i < allStores.length; i++){
@@ -69,5 +79,5 @@ function Store(name, minCustPerHour, maxCustPerHour, avgCookiePerCust) {
     };
   }
 
-
+renderHeaderRow();
 renderStoreRows();
