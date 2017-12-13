@@ -14,6 +14,14 @@ header div {
   margin: 0 auto;
 }
 
+.table {
+  background-color: #a95634;
+}
+
+th {
+  text-align: left;
+}
+
 header img {
   float: left;
   margin-top: 15px;
@@ -24,7 +32,12 @@ header img {
 header li {
   display: inline-block;
   margin-right: 50px;
-  margin-top: 45px
+  /*margin-top: 45px*/
+}
+.highlight {
+  background-color:#8DA997;
+  font-family: 'Montserrat', sans-serif;
+  color:#0A5C50;
 }
 
 main {
