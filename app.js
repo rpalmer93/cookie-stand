@@ -51,7 +51,7 @@ function Store(name, minCustPerHour, maxCustPerHour, avgCookiePerCust) {
 
       }
       storeTable.appendChild(trEl);
-      
+
 };
   this.calcCookiesEachHour();
   allStores.push(this);
@@ -69,4 +69,5 @@ function Store(name, minCustPerHour, maxCustPerHour, avgCookiePerCust) {
     };
   }
 
-  renderStoreRows();
+
+renderStoreRows();
