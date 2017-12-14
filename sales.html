@@ -3,6 +3,7 @@
 <head>
   <title>Pat's Salmon Cookies</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
   <header>
@@ -20,6 +21,16 @@
 
   <main>
     <img class="hero" src="pikeplace.jpg">
+    <form id="store_form">
+      <fieldset>
+        <label for="store">Store Name:</label>
+        <input type="text" name="store" placeholder="Enter Store Name" required>
+      </fieldset>
+      <fieldset>
+        <label for="minCust">Minimum Customers per Hour:</label>
+      </fieldset>
+    </form>
+
       <h2>Daily Sales Estimates</h2>
 <table id="store-sales" class="table"></table>
   <section>
