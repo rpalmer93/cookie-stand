@@ -6,3 +6,7 @@ So far in code 201 I have learned quite a few topics that will be the foundation
 Journal Entry 2:
 
 Today we added constructor functions into our webpages as well as a table to show the daily sales estimates by hour per location. We also learned about object oriented programming.
+
+Journal Entry 3:
+
+Today in lecture we went over a big review of our code for our Salmon Cookies project. A lot of time was spent going over how to properly implement the table in JS and HTML. We also were tasked with going over our CSS and HTML and adding more styling to our pages.
