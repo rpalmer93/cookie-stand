@@ -33,6 +33,7 @@ th {
 
 td {
   border: 3px solid black;
+  padding: 2px;
 }
 
 .logoleft {
@@ -80,6 +81,11 @@ main section h2 {
 
 main section p {
   line-height: 20px;
+}
+
+.border-line {
+  border-top: 3px solid black;
+  margin-top: 10px;
 }
 
 footer {
