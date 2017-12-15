@@ -4,7 +4,6 @@
   <title>Pat's Salmon Cookies</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="reset.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
   <header>
@@ -22,19 +21,33 @@
   </header>
 
   <main>
-
     <img class="hero" src="pikeplace.jpg">
+    
+      <section>
+
     <form id="store_form">
+      <h2>Add a New Store</h2>
       <fieldset>
-        <label for="store">Store Name:</label>
+        <label for="store"><span class="form">Store Name:</span></label>
         <input type="text" name="store" placeholder="Enter Store Name" required>
       </fieldset>
       <fieldset>
-        <label for="minCust">Minimum Customers per Hour:</label>
+        <label for="minCust"><span class="form">Minimum Customers per Hour:</span></label>
+        <input type="number" name="minCust" placeholder="Minimum Cust/Hr" required>
       </fieldset>
+      <fieldset>
+        <label for="maxCust"><span class="form">Maximum Customers per Hour:</span></label>
+        <input type="number" name="maxCust" placeholder="Maximum Cust/Hr" required>
+      </fieldset>
+      <fieldset>
+        <label for="avgCookie"><span class="form">Avg Cookies Per Customer:</span></label>
+        <input type="number" name="avgCookies" placeholder="Avg Cookies/Cust" required>
+      </fieldset>
+
+      <button id="submit_btn" type="submit">Add Store</button>
     </form>
 
-      <h2>Daily Sales Estimates</h2>
+      <h2>Daily Sales Estimates by Location</h2>
 <table id="store-sales" class="table"></table>
 
 
