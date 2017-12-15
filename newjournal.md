@@ -10,3 +10,7 @@ Today we added constructor functions into our webpages as well as a table to sho
 Journal Entry 3:
 
 Today in lecture we went over a big review of our code for our Salmon Cookies project. A lot of time was spent going over how to properly implement the table in JS and HTML. We also were tasked with going over our CSS and HTML and adding more styling to our pages.
+
+Journal Entry 4:
+
+Today in lecture we went over forms, HTML tables, and event listeners. We also did a recap of JS constructor functions, which I still struggle with a little. In lab we then added a form to our html and JS files. I then attempted to use an event listener in my JS file to populate a new table row on my webpage.
