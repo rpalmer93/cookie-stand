@@ -14,3 +14,7 @@ Today in lecture we went over a big review of our code for our Salmon Cookies pr
 Journal Entry 4:
 
 Today in lecture we went over forms, HTML tables, and event listeners. We also did a recap of JS constructor functions, which I still struggle with a little. In lab we then added a form to our html and JS files. I then attempted to use an event listener in my JS file to populate a new table row on my webpage.
+
+Journal Entry 5:
+
+On Friday 12/15 we were assigned partners for our Chocolate Pizza project and after lecture we began working on the project. Me and my partner started with a new repo on GitHub and added myself as a contributor, then we made an HTML scaffold and began editing the CSS. We finished the project over the course of the weekend by tweaking the HTML positioning and a few CSS features as well as a form for our ingredients list. Our reading for the weekend covered JS debugging using console.log and various developer tools.
