@@ -85,8 +85,8 @@ function formData(event) {
   event.preventDefault();
 
   var name = event.target.store.value;
-  var minCustPerHour = parseInt(event.target.minCust.value);
-  var maxCustPerHour = parseInt(event.target.maxCust.value);
+  var minCustPerHour = parseInt(event.target.minCustPerHour.value);
+  var maxCustPerHour = parseInt(event.target.maxCustPerHour.value);
   var avgCookiePerCust = parseInt(event.target.avgCookiePerCust.value);
 
   allStores.push(new Store(name, minCustPerHour, maxCustPerHour, avgCookiePerCust));
