@@ -30,3 +30,7 @@ Today in lecture we discussed adding charts into our JS code using chart.js as w
 Journal Entry 8 12/20/17:
 
 Today in lecture we discussed local storage and persistence with relation to javascript. How to go about saving a users inputted key value data on a webpage so the information is still there when the page is reloaded.
+
+Journal Entry 9 12/21/17:
+
+Today in lecture we did a preview of what we will learn in Code 301 and we selected our ideas and groups for our final project. In lab we collaborated with our group and came up with a working framework of our idea.
