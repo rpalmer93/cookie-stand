@@ -22,3 +22,7 @@ On Friday 12/15 we were assigned partners for our Chocolate Pizza project and af
 Journal Entry 6 12/18/17:
 
 Today in lecture we reviewed the code from Chocolate Pizza projects and discussed code differences as well as a recap of JS debugging and error handling from last week. Then we began delving into audio and video in HTML and how to implement them on our pages, we ended with revisiting domain modeling.
+
+Journal Entry 7 12/19/17:
+
+Today in lecture we discussed adding charts into our JS code using chart.js as well as began thinking about possible final project ideas. In lab our goal was to implement a chart into our Bus Mall project using chart.js that tracked the number of times each product was clicked and displayed them.
