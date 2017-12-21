@@ -26,3 +26,7 @@ Today in lecture we reviewed the code from Chocolate Pizza projects and discusse
 Journal Entry 7 12/19/17:
 
 Today in lecture we discussed adding charts into our JS code using chart.js as well as began thinking about possible final project ideas. In lab our goal was to implement a chart into our Bus Mall project using chart.js that tracked the number of times each product was clicked and displayed them.
+
+Journal Entry 8 12/20/17:
+
+Today in lecture we discussed local storage and persistence with relation to javascript. How to go about saving a users inputted key value data on a webpage so the information is still there when the page is reloaded.
