@@ -34,3 +34,7 @@ Today in lecture we discussed local storage and persistence with relation to jav
 Journal Entry 9 12/21/17:
 
 Today in lecture we did a preview of what we will learn in Code 301 and we selected our ideas and groups for our final project. In lab we collaborated with our group and came up with a working framework of our idea.
+
+Journal Entry 10 12/24/17:
+
+On Friday 12/22/17 we started the day off by doing a code review for our Bus Mall Project then we did a class recap of all the topics from code 201, then we began working with our groups.
